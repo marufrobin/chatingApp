@@ -92,9 +92,6 @@ class ChatSplashPage extends StatelessWidget {
                     ),
                   )),
             ),
-            SizedBox(
-              height: height * 0.04,
-            ),
             Center(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -141,9 +138,8 @@ class GropSplashPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.asset('images/chatsplashlogo.png'),
-            SizedBox(
-              height: height * 0.1,
+            Image.asset(
+              'images/groupsLogo.png',
             ),
             const Text(
               "Groups",
@@ -218,9 +214,6 @@ class GropSplashPage extends StatelessWidget {
                     ),
                   )),
             ),
-            SizedBox(
-              height: height * 0.02,
-            ),
             Center(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -267,9 +260,9 @@ class MoreSplashPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.asset('images/chatsplashlogo.png'),
+            Image.asset('images/moreLogo.png'),
             SizedBox(
-              height: height * 0.1,
+              height: height * 0.06,
             ),
             const Text(
               "More",
@@ -345,7 +338,7 @@ class MoreSplashPage extends StatelessWidget {
                   )),
             ),
             SizedBox(
-              height: height * 0.04,
+              height: height * 0.01,
             ),
             Center(
               child: Row(
