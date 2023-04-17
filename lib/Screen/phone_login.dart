@@ -1,7 +1,8 @@
+import 'package:chatting_app/Screen/phone_otp.dart';
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  HomePage({Key? key}) : super(key: key);
+class PhoneLoginPage extends StatelessWidget {
+  PhoneLoginPage({Key? key}) : super(key: key);
   TextEditingController phoneNumberController = TextEditingController();
   @override
   Widget build(BuildContext context) {
@@ -62,7 +63,7 @@ class HomePage extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => HomePage(),
+                            builder: (context) => PhoneOtpPage(),
                           ));
                     },
                     child: const Center(

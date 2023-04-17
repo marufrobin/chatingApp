@@ -1,4 +1,4 @@
-import 'package:chatting_app/Screen/homePage.dart';
+import 'package:chatting_app/Screen/phone_login.dart';
 import 'package:flutter/material.dart';
 
 class ChatSplashPage extends StatelessWidget {
@@ -301,7 +301,7 @@ class MoreSplashPage extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => HomePage(),
+                          builder: (context) => PhoneLoginPage(),
                         ));
                   },
                   child: const Center(
